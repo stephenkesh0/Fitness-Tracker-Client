@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import LogoImg from "../utils/Images/Logo.png";
+import LogoImg from "../utils/Images/fitness.png";
 import { Link as LinkR, NavLink } from "react-router-dom";
 import { MenuRounded } from "@mui/icons-material";
 import { Avatar } from "@mui/material";
@@ -42,7 +42,7 @@ const NavLogo = styled(LinkR)`
   color: ${({ theme }) => theme.black};
 `;
 const Logo = styled.img`
-  height: 42px;
+  height: 80px;
 `;
 const Mobileicon = styled.div`
   color: ${({ theme }) => theme.text_primary};
